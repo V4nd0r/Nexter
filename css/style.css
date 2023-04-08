@@ -143,7 +143,6 @@ body {
   margin-bottom: 4rem; }
 
 .homes {
-  background-color: #101d2c;
   grid-column: center-start / center-end;
   margin: 15rem 0;
   display: grid;
@@ -152,6 +151,8 @@ body {
 
 .home {
   background-color: #f9f7f6; }
+  .home__img {
+    width: 100%; }
 
 .gallery {
   background-color: #54483A;
