@@ -111,15 +111,20 @@ body {
   display: grid;
   grid-template-rows: 1fr min-content 6rem 1fr;
   grid-template-columns: max-content;
-  grid-row-gap: 1.5rem; }
+  grid-row-gap: 1.5rem;
+  justify-content: center; }
   .header__logo {
     height: 3rem;
     justify-self: center; }
   .header__btn {
     align-self: start;
     justify-self: start; }
-  .header__seenon-logos img {
-    height: 2.5rem; }
+  .header__seenon-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 3rem; }
+    .header__seenon-logos img {
+      height: 2.5rem; }
 
 .realtors {
   background-color: #101d2c;
