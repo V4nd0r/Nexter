@@ -259,7 +259,7 @@ body {
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2); }
   @media only screen and (max-width: 50em) {
     .story__img--2 {
-      grid-column: 1 / -1;
+      grid-row: 1 / -1;
       width: 100%; } }
 
 .story__content {
